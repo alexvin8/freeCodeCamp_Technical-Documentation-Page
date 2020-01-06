@@ -1,0 +1,125 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+<head>
+    <title>Introduction to HTML</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<nav id="navbar">
+    <header>Introduction to HTML</header>
+    <ul>
+        <li><a class="nav-link" href="#Getting_started_with_HTML">Getting started with HTML</a></li>
+        <li><a class="nav-link" href="#Metadata_in_HTML">Metadata in HTML</a></li>
+        <li><a class="nav-link" href="#HTML_text_fundamentals">HTML text fundamentals</a></li>
+        <li><a class="nav-link" href="#Creating_hyperlinks">Creating hyperlinks</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+    </ul>
+</nav>
+
+<main id="main-doc">
+    <section class="main-section" id="Getting_started_with_HTML">
+        <header>Getting started with HTML</header>
+        <article>
+            <p>HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your
+                browser how to structure the web pages you visit. It can be as complicated or as simple as the web
+                developer wishes it to be. HTML consists of a series of elements, which you use to enclose, wrap, or
+                mark up different parts of the content to make it appear or act a certain way. The enclosing tags can
+                make a bit of content into a hyperlink to link to another page on the web, italicize words, and so on.
+                For example, take the following line of content:</p>
+            <code id="code">My cat is very grumpy</code>
+            <p>If we wanted the line to stand by itself, we could specify that it is a paragraph by enclosing it in a
+                paragraph <code><<span>p</span>></code> element:</p>
+            <code id="code">
+                <span><</span>p<span>></span>
+                My cat is very grumpy
+                <span><</span>p<span>></span>
+            </code>
+        </article>
+    </section>
+    <section class="main-section" id="Metadata_in_HTML">
+        <header>Metadata in HTML</header>
+        <article>
+            <p>
+                The HTML structure has the</p>
+            <ul>
+                <li>head</li>
+                <li>body</li>
+            </ul>
+            <p>What's in the <code><span><</span>head<span>></span></code>:</p>
+            <ul>
+                <li>meta</li>
+                <li>title</li>
+            </ul>
+            <p>Example of <code><span><</span>meta<span>></span></code>:</p>
+            <code id="code">
+                <span><</span>meta charset="utf-8"<span>></span>
+            </code>
+            <p>Many <code><span><</span>meta<span>></span></code> elements include name and content attributes: </p>
+            <ul>
+                <li>name</li>
+                <li>content</li>
+            </ul>
+            <p>Example of <code><span><</span>title<span>></span></code>:</p>
+            <code id="code">
+                <span><</span>title<span>></span>My test page<span><</span>/title<span>></span>
+            </code>
+        </article>
+    </section>
+    <section class="main-section" id="HTML_text_fundamentals">
+        <header>HTML text fundamentals</header>
+        <article>
+            <p>Structured content makes the reading experience easier and more enjoyable.</p>
+            <p>In HTML, each paragraph has to be wrapped in a <code><<span>p</span>></code> element, like so:</p>
+            <code id="code">
+                <span><</span>p<span>></span>I am a paragraph, oh yes I am.<span><</span>p<span>></span>
+            </code>
+            <p>Each heading has to be wrapped in a heading element:</p>
+            <code id="code">
+                <span><</span>h1<span>></span>I am the title of the story.<span><</span>h1<span>></span>
+            </code>
+            <p>There are six heading elements — 
+                <code><span><</span>h1<span>></span></code>, 
+                <code><span><</span>h2<span>></span></code>, 
+                <code><span><</span>h3<span>></span></code>, 
+                <code><span><</span>h4<span>></span></code>, 
+                <code><span><</span>h5<span>></span></code>, and
+                <code><span><</span>h6<span>></span></code>. 
+                Each element represents a different level of content in the document;      <code><span><</span>h1<span>></span></code>, 
+                represents the main heading,                 
+                <code><span><</span>h2<span>></span></code>, 
+                represents subheadings, 
+                <code><span><</span>h3<span>></span></code>, 
+                represents sub-subheadings, and so on.</p>
+        </article>
+    </section>
+    <section class="main-section" id="Creating_hyperlinks">
+        <header>Creating hyperlinks</header>
+        <article>
+            <p>Hyperlinks are one of the most exciting innovations the Web has to offer. Well, they've been a feature of
+                the Web since the very beginning, but they are what makes the Web a Web — they allow us to link our
+                documents to any other document (or other resource) we want to, we can also link to specific parts of
+                documents, and we can make apps available at a simple web address (contrast this to native apps, which
+                have to be installed and all that business.) Just about any web content can be converted to a link, so
+                that when clicked (or otherwise activated) it will make the web browser go to another web address (URL).
+            </p>
+            <p>A basic link is created by wrapping the text (or other content, see Block level links) you want to turn
+                into a link inside an <code><span><</span>a<span>></span></code> element, and giving it an
+                <code>href</code> attribute (also known as a Hypertext Reference , or target) that will contain the web
+                address you want the link to point to.</p>
+        </article>
+    </section>
+    <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+            <ul>
+                <li>
+                    All the documentation in this page is taken from
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"
+                        target="_blank">MDN</span>.
+                </li>
+            </ul>
+        </article>
+    </section>
+</main>
+</html>
